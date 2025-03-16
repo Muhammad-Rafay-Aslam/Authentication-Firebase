@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=0, initial-scale=1.0">
-    <title>Authentication-Firebase-SignUp</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Authentication-Firebase-Login</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -14,31 +14,26 @@
     </header>
     <div class="signin-container">
         <div class="signin-content">
-            <h2 id="well" class="welcome">Sign Up</h2>
+            <h2 id="well" class="welcome">Login</h2>
             <form action="#">
                 <div class="input-group">
-                    <input type="text" placeholder="Name" name="" id="sname" required>
+                    <input type="email" placeholder="Email" name="" id="" required>
                 </div>
                 <div class="input-group">
-                    <input type="email" placeholder="Email" name="" id="semail" required>
-                </div>
-                <div class="input-group">
-                    <input type="password" placeholder="Password" name="" id="spassword" required>
+                    <input type="password" placeholder="Password" name="" id="" required>
                 </div>
                 <div class="forgot">
                     <a href="#" class="forgot-passward">Forgot Password?</a>
                 </div>
                 <div class="buttons">
-                    <button onclick="signup()" class="sign-btn" type="submit">Sign In</button>
+                    <button class="login-btn" type="submit">Log In</button>
                 </div>
                 <div class="link-page">
-                    <span id="link">Already have an account : </span><a  href="./login.html">Go to login</a>
+                    <span id="link">I don't have an account : </span><a href="./index.html">Go to signup</a>
                 </div>
             </form>
         </div>
     </div>
     
-
-    <script type="module" src="app.js"></script>
 </body>
 </html>
